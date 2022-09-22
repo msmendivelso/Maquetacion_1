@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.bg-gray{
+    background-color: #CED8E1;
+}
+
+.bg-green{
+    background-color: #1BC8A1;
+}
+
+.bg-blue{
+    background-color: #122A3B;
+}
+
+.text-gray{
+    color: #CED8E1;
+}
+
+.text-green{
+    color: #1BC8A1;
+}
+
+.text-blue{
+    color: #122A3B;
+}
+
+.padding{
+    padding: 50px 100px 100px 100px;
+}
+
+.padding2{
+    padding: 50px 100px 50px 100px;
+}
+.padding3{
+    padding: 50px 0px 50px 100px;
+}
+
+
+/*NAV--------------------------------------*/
+.logo{
+    width: 150px;
+    height: 50px;
+    float: left;
+    border-radius: 10px;
+}
+
+.nav{
+    float: right;
+    text-align: end;
+}
+
+.nav ul{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.nav li{
+    display: inline;
+    margin: 0 20px;
+    border-radius: 4px;
+}
+
+/*section 1-----------------------------------------*/
+.div-section1{
+    width: 30%;
+}
+
+.div-section1 p{
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.btn-section1{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #1BC8A1;
+}
+
+/*Section 2--------------------------------------*/
+.section2{
+    display: flex;
+}
+
+.section2-left{
+    width: 50%;
+    padding-right: 80px;
+}
+
+.section2-bigcontainer{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.buttons-section2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-section2{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.section2-right{
+    width: 50%;
+}
+
+.container-right-section2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.div-container{
+    width: 190px;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.text-container{
+    width: 550px;
+    margin-right: 30px;
+}
+
+.text-container p{
+    line-height: 1.5;
+}
+
+.flecha-izq{
+    background-color: transparent;
+    border-right: 50px solid #122A3B;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    border-left: 0px solid transparent; 
+}
+.flecha-dere{
+    background-color: transparent;
+    border-right: 0px solid transparent;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    border-left: 50px solid #122A3B; 
+}
+
+/*Section 3---------------------------*/
+.section3{
+    display: flex;
+}
+
+.mid{
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.div-section3{
+    width: 50%;
+    line-height: 1.5;
+}
+
+
+/*Section 4---------------------------------*/
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card ul{
+    padding-left: 0px;
+    margin: 0;
+    list-style: none;
+}
+
+.card li{
+    margin: 0;
+    padding-bottom: 30px;
+    color: #CED8E1;
+}
+
+.card ul li:before {
+    content: '✓  ';
+    color: #1BC8A1;
+    font-weight: bold;
+}
+
+
+
+.card-green ul li:before {
+    content: '✓  ';
+    color: #122A3B;
+    font-weight: bold;
+}
+
+.mark ul li::before{
+    content: 'X  ';
+    color: #1BC8A1;
+}
+
+.card-green{
+    margin: 0 20px;
+}
+
+/*Footer-------------------------------------*/
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-footer ul{
+    padding-left: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.list-footer li{
+    display: inline;
+    margin: 0 15px;
+    background-color: #1BC8A1;
+    color: #1BC8A1;
+    border-radius: 4px;
+}
+
+.btns-footer button{
+    margin: 0 10px;
+}
+
+footer p{
+    color: #CED8E1;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
