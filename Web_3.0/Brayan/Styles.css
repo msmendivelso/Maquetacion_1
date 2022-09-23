@@ -1,0 +1,294 @@
+.fondo_azul{
+    background: #31E1F7;
+}
+.fondo_morado{
+    background: #400D51;
+}
+.fondo_naranja{
+    background: #FF4301;
+}
+
+.letra_azul{
+    color: #31E1F7;
+}
+.letra_morado{
+    color: #400D51;
+}
+.letra_naranja{
+    color: #FF4301;
+}
+
+
+/* Diseño de Pagina completa */
+body{
+    margin: 0;
+    background: #400D51;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Diseño de Head Sección */
+.head{
+    display: flex;
+}
+
+.nav_head{
+    background: #FF4301;
+
+    border-radius: 5px;
+    margin: 15px -75px 15px 90px;
+
+    width: 60px;
+    height: 8px;
+}
+
+.head_nav{
+    display: flex;
+    justify-content: end;
+}
+
+.btn_head{
+    background: #FF4301;
+
+    border-radius: 5px;
+    margin: -30px 90px 10px -70px;
+
+    width: 25px;
+    height: 25px;
+}
+
+
+/* Diseño de Nav Sección */
+.nav{
+    display: flex;
+    justify-content: end;
+}
+
+.btn_nav{
+    background: #FF4301;
+
+    padding: 10px;
+    border-radius: 10px;
+    margin: 25px 0px 25px 90px;
+
+    width: 140px;
+    height: 40px;
+}
+
+.nav_div{
+    background: #FF4301;
+
+    border-radius: 5px;
+    margin: -25px 90px 25px -65px;
+
+    width: 70px;
+    height: 8px;
+}
+
+
+/* Diseño de Primera Sección */
+.uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h_uno{
+    margin: 50px 0px -10px 0px;
+}
+
+.p_uno{
+    text-align: center;
+}
+
+.btn_uno{
+    background: #FF4301;
+
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px 100px 0px;
+
+    width: 100px;
+    height: 20px;
+}
+
+
+/* Diseño de Intermedia Sección */
+.btn{
+    display: flex;
+    justify-content: center;
+
+    position:absolute;
+    left: 330px; 
+    top: 300px;
+}
+
+.btn_dos{
+    background: #FF4301;
+
+    padding: 10px;
+    border-radius: 10px;
+    margin: 80px 20px 0px 20px;
+
+    width: 160px;
+    height: 80px;
+}
+
+
+/* Diseño de Segunda Sección */
+.h3_dos{
+    color: #FF4301;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 100px 0px 0px 0px; 
+}
+
+.tarjeta{
+    border: 2px solid #31E1F7;
+    margin: 70px 0px 0px 90px;
+    padding: 15px;
+    border-radius: 15px;
+    
+    width: 20%;
+}
+
+.div_tarjeta{
+    background: #31E1F7;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+.h_tarjeta{
+    margin: -40px 0px 0px 0px;
+}
+
+.p_tarjeta{
+    margin: 0px 0px 20px 0px;
+}
+
+hr{
+    margin: 0px 0px 0px -15px;
+    width: 111%;
+    border: 1px solid #31E1F7;
+}
+
+.tarjeta_uno{
+    background: #FF4301;
+    padding: 10px;
+    border-radius: 10px;
+
+    margin: 10px 0px 0px 0px;
+    width: 30px;
+}
+
+.nav_tarjeta{
+    display: flex;
+    justify-content: end;
+}
+
+.tarjeta_dos{
+    background: #FF4301;
+    padding: 10px;
+    border-radius: 8px;
+
+    margin: -20px 5px 0px 0px;
+    width: 5px;
+}
+
+
+
+.degradado{
+    display: flex;
+}
+
+.div_solido{
+    background: #FF4301;
+
+    margin: 60px -50px 0px 90px;
+    width: 250px;
+    height: 250px;
+}
+
+.div_degradado{
+    background-image: repeating-linear-gradient(-40deg,
+    #FF4301 0px, #FF4301 10px, #31E1F7 10px, #31E1F7 20px);
+
+    margin: 60px -50px 0px 90px;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+.circulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.circulo_g{
+    background: #31E1F7;
+
+    margin: 50px 0px 40px 0px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.circulo_p{
+    background: #31E1F7;
+
+    margin: 80px 110px 25px 110px;
+    border-radius: 85px;
+    width: 170px;
+    height: 170px;
+}
+
+.h3_circulo{
+    margin: -15px 0px 80px 0px;
+}
+
+/* Foot Sección */
+.foot{
+    display: flex;
+}
+
+.foot_dos{
+    display: flex;
+    justify-content: end;
+}
+
+.btn_foot{
+    background: #FF4301;
+
+    border-radius: 5px;
+    margin: 35px -75px 20px 90px;
+
+    width: 30px;
+    height: 30px;
+}
+
+.nav_foot{
+    background: #FF4301;
+
+    border-radius: 5px;
+    margin: 30px -75px 35px 90px;
+
+    width: 45px;
+    height: 8px;
+}
+
+.div_foot{
+    margin: -130px 150px 0px -10px;
+}
+
+.h_foot{
+    margin: 0px 0px 0px 0px;
+}
+
+.p_foot{
+    margin: 0px 0px 0px 0px;
+}

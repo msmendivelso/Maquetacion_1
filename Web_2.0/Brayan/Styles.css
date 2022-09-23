@@ -1,0 +1,230 @@
+.fondo_azul {
+    background: rgb(15, 43, 63);
+}
+
+.fondo_agua {
+    background: rgb(28, 201, 157);
+}
+
+.fondo_gris {
+    background: rgb(206, 216, 225);
+}
+
+.letra_azul {
+    color: rgb(15, 43, 63);
+    text-decoration: none;
+}
+
+.letra_agua {
+    color: rgb(28, 201, 157);
+    text-decoration: none;
+}
+
+.letra_gris {
+    color: rgb(206, 216, 225);
+    text-decoration: none;
+}
+
+/* Diseño pagina completa */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Diseño de primera sección */
+
+.head {
+    display: flex;
+    justify-content: end;
+}
+
+.nav_uno_head {
+    background: rgb(28, 201, 157);
+
+    border-radius: 5px;
+    margin: 25px 90px -10px -70px;
+
+    width: 60px;
+    height: 8px;
+}
+
+.btn_logo {
+    background: rgb(15, 43, 63);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 90px;
+
+    width: 100px;
+    height: 30px;
+}
+
+.nav_dos {
+    border-radius: 5px;
+    margin: -10px 90px 25px -70px;
+
+    width: 100px;
+    height: 12px;
+}
+
+
+/* Diseño de segunda sección */
+
+.div_dos {
+    margin: 55px 75px;
+}
+
+.btn_dos {
+    background: rgb(28, 201, 157);
+    padding: 10px;
+    border-radius: 12px;
+
+    margin-top: 20px;
+    width: 100px;
+    height: 8px;
+}
+
+/* Diseño de tercera sección */
+.divi {
+    display: flex;
+}
+
+.tres {
+    margin: 55px 0px 65px 75px;
+}
+
+.div_tres {
+    background: rgb(15, 43, 63);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 0px 20px 0px;
+
+    width: 500px;
+    height: 180px;
+}
+
+.nav_tres {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flecha_izq {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid rgb(15, 43, 63);
+    border-left: 30px solid transparent;
+}
+
+.btn_tres {
+    background: rgb(28, 201, 157);
+    padding: 10px;
+    border-radius: 10px;
+
+    width: 20px;
+    height: 20px;
+}
+
+.flecha_der {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 30px solid transparent;
+    border-left: 30px solid rgb(15, 43, 63);
+}
+
+.tres_dos {
+    display: flex;
+}
+
+.div_tres_dos {
+    background: rgb(15, 43, 63);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 0px 20px 0px;
+
+    width: 125px;
+    height: 125px;
+}
+
+.p_tres {
+    margin: 10px -10px 10px 20px;
+}
+
+/* Diseño de cuarta sección  */
+.cuatro_uno {
+    background: rgb(15, 43, 63);
+    width: 50%;
+}
+
+/* Diseño de quinta sección */
+.cinco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cinco_uno {
+    background: rgb(28, 201, 157);
+    padding: 10px;
+    margin: 50px 10px 50px 10px;
+
+    width: 250px;
+    height: 400px;
+}
+
+.cinco_dos {
+    background: rgb(15, 43, 63);
+    padding: 10px;
+    margin: 30px 10px 30px 10px;
+
+    width: 200px;
+    height: 300px;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    margin: 20px 0px 0px 20px;
+}
+
+.chulo::marker {
+    content: "✓   ";
+    color: rgb(28, 201, 157);
+}
+
+.equis::marker {
+    content: "✘   ";
+    color: rgb(28, 201, 157);
+}
+
+.chulo_dos::marker {
+    content: "✓   ";
+    color: rgb(15, 43, 63);
+}
+
+/* Diseño de sexta sección */
+.seis {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_seis {
+    background: rgb(28, 201, 157);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 10px 10px 10px;
+
+    width: 20px;
+    height: 20px;
+}
+
+.nav_seis {
+    background: rgb(28, 201, 157);
+    margin: 20px 10px 30px 10px;
+    border-radius: 5px;
+
+    width: 60px;
+    height: 8px;
+}
