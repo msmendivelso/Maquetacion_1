@@ -1,40 +1,50 @@
-.fondo_azul{
-    background: #31E1F7;
-}
-.fondo_morado{
-    background: #400D51;
-}
-.fondo_naranja{
-    background: #FF4301;
+:root {
+    --azul: #31E1F7;
+    --morado: #400D51;
+    --naranja: #FF4301;
 }
 
-.letra_azul{
-    color: #31E1F7;
+.fondo_azul {
+    background: var(--azul);
 }
-.letra_morado{
-    color: #400D51;
+
+.fondo_morado {
+    background: var(--morado);
 }
-.letra_naranja{
-    color: #FF4301;
+
+.fondo_naranja {
+    background: var(--naranja);
+}
+
+.letra_azul {
+    color: var(--azul);
+}
+
+.letra_morado {
+    color: var(--morado);
+}
+
+.letra_naranja {
+    color: var(--naranja);
 }
 
 
 /* Diseño de Pagina completa */
-body{
+body {
     margin: 0;
-    background: #400D51;
+    background: var(--morado);
     display: flex;
     flex-direction: column;
 }
 
 
 /* Diseño de Head Sección */
-.head{
+.head {
     display: flex;
 }
 
-.nav_head{
-    background: #FF4301;
+.nav_head {
+    background: var(--naranja);
 
     border-radius: 5px;
     margin: 15px -75px 15px 90px;
@@ -43,13 +53,13 @@ body{
     height: 8px;
 }
 
-.head_nav{
+.head_nav {
     display: flex;
     justify-content: end;
 }
 
-.btn_head{
-    background: #FF4301;
+.btn_head {
+    background: var(--naranja);
 
     border-radius: 5px;
     margin: -30px 90px 10px -70px;
@@ -60,13 +70,13 @@ body{
 
 
 /* Diseño de Nav Sección */
-.nav{
+.nav {
     display: flex;
     justify-content: end;
 }
 
-.btn_nav{
-    background: #FF4301;
+.btn_nav {
+    background: var(--naranja);
 
     padding: 10px;
     border-radius: 10px;
@@ -76,8 +86,8 @@ body{
     height: 40px;
 }
 
-.nav_div{
-    background: #FF4301;
+.nav_div {
+    background: var(--naranja);
 
     border-radius: 5px;
     margin: -25px 90px 25px -65px;
@@ -88,22 +98,22 @@ body{
 
 
 /* Diseño de Primera Sección */
-.uno{
+.uno {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.h_uno{
+.h_uno {
     margin: 50px 0px -10px 0px;
 }
 
-.p_uno{
+.p_uno {
     text-align: center;
 }
 
-.btn_uno{
-    background: #FF4301;
+.btn_uno {
+    background: var(--naranja);
 
     padding: 10px;
     border-radius: 10px;
@@ -115,17 +125,17 @@ body{
 
 
 /* Diseño de Intermedia Sección */
-.btn{
+.btn {
     display: flex;
     justify-content: center;
 
-    position:absolute;
-    left: 330px; 
-    top: 300px;
+    position: absolute;
+    left: 25vw;
+    top: 22vw;
 }
 
-.btn_dos{
-    background: #FF4301;
+.btn_dos {
+    background: var(--naranja);
 
     padding: 10px;
     border-radius: 10px;
@@ -137,100 +147,113 @@ body{
 
 
 /* Diseño de Segunda Sección */
-.h3_dos{
-    color: #FF4301;
+.h3_dos {
+    color: var(--naranja);
 
     display: flex;
     justify-content: center;
 
-    margin: 100px 0px 0px 0px; 
+    margin: 100px 0px 20px 0px;
 }
 
-.tarjeta{
-    border: 2px solid #31E1F7;
-    margin: 70px 0px 0px 90px;
-    padding: 15px;
+/* Diseño de tarjeta */
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.tarjeta {
+    border: 3px solid var(--azul);
+    margin: 70px 0px -70px 0px;
     border-radius: 15px;
-    
-    width: 20%;
+
+    width: 25%;
 }
 
-.div_tarjeta{
-    background: #31E1F7;
+.div_tarjeta {
+    background: var(--azul);
     padding: 60px;
     border-radius: 15px;
+    margin: 15px;
 }
 
-.h_tarjeta{
-    margin: -40px 0px 0px 0px;
+.h_tarjet {
+    margin: 0px 0px 0 15px;
 }
 
-.p_tarjeta{
-    margin: 0px 0px 20px 0px;
+.h_tarjeta {
+    margin: -20px 15px 0px 0px;
 }
 
-hr{
-    margin: 0px 0px 0px -15px;
-    width: 111%;
-    border: 1px solid #31E1F7;
+.p_tarjeta {
+    margin: 10px 0px 10px 15px;
 }
 
-.tarjeta_uno{
-    background: #FF4301;
+.tarjeta_uno {
+    background: var(--naranja);
     padding: 10px;
     border-radius: 10px;
 
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 15px;
     width: 30px;
 }
 
-.nav_tarjeta{
+.tarjeta_parte_dos {
+    border-top: 3px solid var(--azul);
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.nav_tarjeta {
     display: flex;
     justify-content: end;
 }
 
-.tarjeta_dos{
-    background: #FF4301;
+
+.tarjeta_dos {
+    background: var(--naranja);
     padding: 10px;
     border-radius: 8px;
 
-    margin: -20px 5px 0px 0px;
+    margin: -30px 15px 10px -10px;
     width: 5px;
 }
 
+/* Diseño de degradado */
 
-
-.degradado{
+.degradado {
     display: flex;
 }
 
-.div_solido{
-    background: #FF4301;
+.div_solido {
+    background: var(--naranja);
 
     margin: 60px -50px 0px 90px;
     width: 250px;
     height: 250px;
 }
 
-.div_degradado{
-    background-image: repeating-linear-gradient(-40deg,
-    #FF4301 0px, #FF4301 10px, #31E1F7 10px, #31E1F7 20px);
+.div_degradado {
+    background-image: repeating-linear-gradient(-40deg, var(--naranja) 0px, var(--naranja) 10px, var(--azul) 10px, var(--azul) 20px);
 
     margin: 60px -50px 0px 90px;
     width: 250px;
     height: 250px;
 }
 
+/* Diseño de Circulos */
 
-
-.circulo{
+.circulo {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.circulo_g{
-    background: #31E1F7;
+.circulo_g {
+    background: var(--azul);
 
     margin: 50px 0px 40px 0px;
     border-radius: 100px;
@@ -238,8 +261,8 @@ hr{
     height: 200px;
 }
 
-.circulo_p{
-    background: #31E1F7;
+.circulo_p {
+    background: var(--azul);
 
     margin: 80px 110px 25px 110px;
     border-radius: 85px;
@@ -247,22 +270,23 @@ hr{
     height: 170px;
 }
 
-.h3_circulo{
+.h3_circulo {
     margin: -15px 0px 80px 0px;
 }
 
+
 /* Foot Sección */
-.foot{
+.foot {
     display: flex;
 }
 
-.foot_dos{
+.foot_dos {
     display: flex;
     justify-content: end;
 }
 
-.btn_foot{
-    background: #FF4301;
+.btn_foot {
+    background: var(--naranja);
 
     border-radius: 5px;
     margin: 35px -75px 20px 90px;
@@ -271,8 +295,8 @@ hr{
     height: 30px;
 }
 
-.nav_foot{
-    background: #FF4301;
+.nav_foot {
+    background: var(--naranja);
 
     border-radius: 5px;
     margin: 30px -75px 35px 90px;
@@ -281,14 +305,14 @@ hr{
     height: 8px;
 }
 
-.div_foot{
+.div_foot {
     margin: -130px 150px 0px -10px;
 }
 
-.h_foot{
+.h_foot {
     margin: 0px 0px 0px 0px;
 }
 
-.p_foot{
+.p_foot {
     margin: 0px 0px 0px 0px;
 }
